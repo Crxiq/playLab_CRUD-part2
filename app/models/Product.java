@@ -13,7 +13,7 @@ import com.avaje.ebean.*;
 public class Product extends Model{
         @Id
         private Long id;
-        @Constraints.Required
+        @Constraints.Required//save to database via ebeanRequired
         private String name;
         
         @Constraints.Required

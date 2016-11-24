@@ -7,7 +7,7 @@
 GET     /                     controllers.HomeController.index(name: String ?="visitor")
 
 GET     /about                      controllers.HomeController.about
-
+GET     /addproduct                 controllers.HomeController.addProduct
 GET     /products                   controllers.HomeController.products
 
 # An example controller showing how to use dependency injection
